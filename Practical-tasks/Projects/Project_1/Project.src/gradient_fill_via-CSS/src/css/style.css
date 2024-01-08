@@ -34,7 +34,7 @@ nav {
 
 .section-about {
     height: 640px;
-    background: url(../img/01-Картинка-фона.jpg) center/cover no-repeat;
+    background: url(../img/01-background-picture.jpg) center/cover no-repeat;
 }
 .section-about__block {
     width: 420px;
