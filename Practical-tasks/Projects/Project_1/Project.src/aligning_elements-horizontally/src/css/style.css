@@ -34,14 +34,22 @@ nav {
 
 .section-about {
     height: 640px;
-    background: url(../img/01-Картинка-фона.jpg) center/cover no-repeat;
+    background: url(../img/01-background-picture.jpg) center/cover no-repeat;
     position: relative;
 }
 .section-about__block {
     width: 420px;
     height: 190px;
     background: linear-gradient(180deg, rgba(244, 213, 178, 0.8) 0%, rgba(234, 156, 65, 0.8) 100%);
-    /* position: absolute;
+    position: absolute;
     top: 349px;
-    left: 730px; */
+    left: 730px;
+    padding-top: 15px;
+}
+
+.section-about__border {
+    width: 390px;
+    height: 160px;
+    border: 1px solid black;
+    margin: 0 auto;
 }
