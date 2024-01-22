@@ -1,5 +1,18 @@
-h1
-    color: blue
+@import "resets.scss"
+@import "normalizes.scss"
 
-p
-    color: red
+$main-color: #F5622A
+@mixin box
+    width: 499px
+    height: 400px
+    background-color: grey
+
+.block 
+    @include box
+    &__text
+        color: $main-color
+
+.block-2
+    @include box
+    margin-top: 20px
+
