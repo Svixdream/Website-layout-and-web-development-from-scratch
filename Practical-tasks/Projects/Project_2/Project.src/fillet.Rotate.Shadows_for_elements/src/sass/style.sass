@@ -1,0 +1,76 @@
+@import "normalizes.scss"
+@import "resets.scss"
+
+*
+    box-sizing: border-box
+
+$color-red: #E84949
+$color-orange: #F5622A
+$color-blue: #115BF4
+
+.container
+    max-width: 1128px
+    margin: 0 auto
+
+.main-section
+    height: 800px
+    background: #F1EDED
+    padding-top: 28px
+    &__nav-container
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        height: 103px
+        align-items: center
+    &__logo
+        width: 200px
+
+.nav-menu
+    &__list
+        display: flex
+        flex-direction: row
+    &__list-item
+        margin-right: 66px
+        font-size: 18px
+        &:last-child
+            margin-right: 0px
+
+.left-wrapper
+    position: relative
+    img
+        position: relative
+        z-index: 5
+    &__rectangle-red
+        position: absolute
+        top: 71px
+        left: 71px
+        width: 448.74px
+        height: 218.923px
+        background: $color-red
+        border-radius: 100px
+        box-shadow: 15px -9px 10px -7px rgba(63, 63, 63, 0.45)
+        transform: rotate(-81.412deg)
+        z-index: 2
+    &__rectangle-orange
+        position: absolute
+        top: 120px
+        left: 7px
+        width: 551.697px
+        height: 221px
+        background: $color-orange
+        border-radius: 100px
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
+        transform: rotate(-45deg)
+        z-index: 3
+    &__rectangle-blue
+        position: absolute
+        top: 177px
+        left: 94px
+        width: 458.942px
+        height: 220px
+        background: #115BF4
+        border-radius: 100px
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
+        transform: rotate(-22.243deg)
+        z-index: 1
+
