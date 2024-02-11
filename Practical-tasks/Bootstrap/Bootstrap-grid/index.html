@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bootstrap test</title>
+    <script src="https://kit.fontawesome.com/f4ca39fd72.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <i class="fa-solid fa-suitcase-rolling"></i>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active me-3" aria-current="page" href="#">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Программирование</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Обо мне
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Моя жизнь</a></li>
+              <li><a class="dropdown-item" href="#">Путешествия</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Контакты</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="" aria-label="Поиск">
+          <button class="btn btn-outline-success" type="submit">Поиск</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleIndicators" data-bs-interval="2000" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+          <div class="content">
+          <h1>&lt;h1&gt;Hello world!&lt;/h1&gt;</h1>
+          <p>Постоянное желание изменить свою жизнь непрерывно витало в моей голове, пока наконец я не решился действовать. Я осознал, что программирование - это не только мой путь к новым знаниям и навыкам, но и ключ к свободе выбора и независимости. Решение погрузиться в мир кода и разработки стало моим первым шагом к созданию нового образа жизни, который позволит мне путешествовать, исследовать и узнавать мир с новых ракурсов.</p>
+          <button type="button" class="btn btn-primary">Подписаться</button>
+      </div>
+          <div class="overlay"></div>
+          <img src="img/1.jpg" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-item">
+        <div class="content">
+        <h1>Долгий путь</h1>
+        <p>Мой путь к осознанию того, чего я хочу от жизни, был крайне тернистым и долгим. Он вел меня через запутанные тропы неудач, сомнений и разочарований. Но каждый шаг, каждый неудачный опыт, каждая преодоленная преграда стали кирпичиками в фундаменте моего понимания. И вот, наконец, после множества ошибок и взвешивания вариантов, я пришел к ясному осознанию того, что именно я хочу видеть и достигнуть в своей жизни.</p>
+        <button type="button" class="btn btn-primary">Подписаться</button>
+    </div>
+        <div class="overlay"></div>
+        <img src="img/2.jpg" class="d-block w-100" alt="...">
+    </div>
+
+    <div class="carousel-item">
+      <div class="content">
+      <h1>Новая жизнь</h1>
+      <p>Мой путь в освоении программирования и достижении цели путешествовать может быть долгим и полным трудностей, но я уверен, что с каждым преодоленным вызовом я буду становиться сильнее и ближе к своей цели. Независимо от того, сколько времени и усилий это потребует, я не сомневаюсь в своей способности достичь успеха. Я готов принять все препятствия на своем пути и продолжать двигаться вперед, потому что я верю в себя и в то, что моя цель заслуживает всех усилий.</p>
+      <button type="button" class="btn btn-primary">Подписаться</button>
+  </div>
+      <div class="overlay"></div>
+      <img src="img/3.jpg" class="d-block w-100" alt="...">
+  </div>
+
+<!--       <div class="carousel-item">
+        <img src="img/2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/3.jpg" class="d-block w-100" alt="...">
+      </div> -->
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <i class="bi bi-arrow-left-circle"></i>
+      <span class="visually-hidden">Предыдущий</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+      </svg>
+      <span class="visually-hidden">Следующий</span>
+    </button>
+  </div>
+
+  <figure class="text-center">
+    <blockquote class="blockquote">
+      <p>Как код, так и жизнь: каждая строчка имеет значение, а каждая ошибка - возможность для улучшения.</p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      Я
+    </figcaption>
+  </figure>
+
+  <div class="container">
+    <div class="row">
+      <div class="wrapper-1 col-12 col-md-4 col-lg-4">
+        <div class="card">
+          <img src="img/card-1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Жизнь — это уникальный дар, который предоставляет нам лишь один шанс для самореализации и достижения своих целей. В мире программирования особенно важно понимать, что каждый момент, каждый проект, каждая строка кода — это возможность стать лучше, продвинуться вперед и добиться успеха. Поскольку технологии постоянно развиваются и меняются, необходимо постоянно совершенствовать свои навыки, чтобы оставаться конкурентоспособным и достигать высот в этой области.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrapper-2 col-12 col-md-4 col-lg-4">
+        <div class="card">
+          <img src="img/card-2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">В программировании ключевым элементом является не только умение писать код, но и способность постоянно обучаться и адаптироваться к новым технологиям и требованиям рынка. Технический прогресс не стоит на месте, и чтобы не отставать от него, необходимо быть готовым к постоянному обучению и совершенствованию. Только так можно обеспечить себе успешную карьеру и преуспеть в этой динамичной сфере.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrapper-3 col-12 col-md-4 col-lg-4">
+        <div class="card">
+          <img src="img/card-3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Самосовершенствование в программировании — это не только инвестиция в собственный профессиональный рост, но и возможность принести больший вклад в развитие общества и создание инноваций. Те, кто осознают, что жизнь дана один раз, стремятся не только к личному успеху, но и к созданию ценности для других людей через свою работу и свои достижения в мире программирования.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
